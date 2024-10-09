@@ -1,33 +1,36 @@
-# To-Do App Backend Project
+# Task Tracker CLI
 
-## Overview
-This project is aimed at creating a backend for a To-Do application. The primary focus is on practicing and brushing up on backend development skills, API calls, and project management as part of a team effort. As the team lead and project manager, I will guide the development process and ensure that we meet the project milestones.
-
-## Project Goals
-- Build a scalable and efficient backend for a To-Do application.
-- Implement CRUD (Create, Read, Update, Delete) functionalities for tasks.
-- Develop API endpoints that allow clients to interact with the application.
-- Practice API documentation and testing.
-- Strengthen backend skills including database management, routing, and error handling.
-- Collaborate using Git for version control and project management.
+A simple Command Line Interface (CLI) tool to manage and track tasks. This project allows you to add, update, delete tasks, and mark tasks as in-progress or done. Tasks are stored in a JSON file and can be listed based on their status.
 
 ## Features
-- User authentication and authorization.
-- Create, edit, and delete tasks.
-- Mark tasks as complete or incomplete.
-- Categorize tasks by priority or deadline.
-- Assign due dates to tasks.
-- Return filtered lists of tasks based on their status (completed, pending).
-- Pagination for large task lists.
 
-## Tech Stack
-- **Node.js**: Backend framework for building server-side logic.
-- **Express.js**: For routing and handling API requests.
-- **MongoDB** (or SQL alternative): Database for storing tasks and user data.
-- **JWT** (JSON Web Tokens): For secure authentication and authorization.
-- **Docker**: For containerizing the application.
-- **Postman**: For API testing and documentation.
-- **Swagger**: For API documentation.
+- Add new tasks
+- Update existing tasks
+- Delete tasks
+- Mark tasks as "in-progress" or "done"
+- List tasks based on their status
+- All tasks are stored in a `tasks.json` file
 
+## Requirements
 
-Developer: ... 
+- Node.js installed on your machine
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/yourusername/task-tracker-cli.git
+```
+
+2. Navigate to the project directory:
+```bash
+   cd task-tracker-cli
+```
+
+3. Install dependencies (if any) — currently, there are no external dependencies, so this step is not necessary unless you add some in the future.
+
+4. Run the CLI commands:
+```bash
+   node task-cli.js <command> <arguments>
+```
